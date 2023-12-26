@@ -1,0 +1,279 @@
+@import url('https://fonts.cdnfonts.com/css/hero-new');                
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #798777;
+    margin: 0;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    background-color: #798777;
+    color: #F8EDE3;
+    justify-content: center;
+    font-family: 'Hero New', sans-serif;
+    position: fixed;
+    height: 48px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 5px 1px black;
+}
+
+.header .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 1400px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .links {
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+/* end of header */
+
+/* first section */
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    margin: 120px 0;
+    background-color: #798777;
+    color: #F8EDE3;
+    font-family: 'Hero New', sans-serif;
+}
+
+.first-section .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+    gap: 20px;
+}
+
+.first-section .first-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.first-section .title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.first-section .text{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.first-section button {
+    background-color: #F8EDE3;
+    font-size: 18px;
+    color: #798777;
+    padding: 16px 20px;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+
+.first-section .second-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section .second-container img {
+    border: 1px solid black;
+    border-radius: 16px;
+    width: 700px;
+}
+
+/* end of first section */
+
+/* second section */
+
+.second-section {
+    background-color: #F8EDE3;
+    color: #798777;
+    font-family: 'Hero New', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.second-section .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1400px;
+}
+
+.second-section .title {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.second-section .first-container {
+    display: flex;
+    justify-content: center;
+}
+
+.second-section .second-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.second-section .product {
+    flex: 0 1 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.second-section .product-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.second-section img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/* end of second section */
+
+/* third section */
+
+.third-section {
+    font-family: 'Hero New', sans-serif;
+    background-color: #BDD2B6;
+    color: #798777;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.third-section .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1400px;
+}
+
+.third-section .second-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.third-section .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-section .title {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.third-section .testimony {
+    flex: 0 1 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testimony .text {
+    font-style: italic;
+}
+
+.testimony .customer-name {
+    align-self: flex-end;
+}
+
+.testimony img {
+    width: 200px;
+    margin-bottom: 20px;   
+}
+
+/* end of third section */
+
+/* fourth section */
+
+.fourth-section {
+    background-color: #F8EDE3;
+    color: #798777;
+    font-family: 'Hero New', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.fourth-section .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 1400px;
+}
+
+.fourth-section .title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.fourth-section .first-container {
+    margin-bottom: 40px;
+}
+
+.fourth-section .second-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fourth-section button {
+    background-color: #798777;
+    font-size: 18px;
+    color: #F8EDE3;
+    padding: 16px 20px;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+
+/* end of fourth section */
+
+/* footer */
+
+.footer {
+    color: #F8EDE3;
+    font-family: 'Hero New', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
